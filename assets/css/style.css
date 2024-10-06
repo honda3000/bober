@@ -846,5 +846,13 @@ header ul li:nth-child(1) a {
   height: 50px;
 }
 .imgAbout{
-  width: 500px;
+  width: 40%;
+}
+.textRoad{
+  width: 40vh;
+}
+.road{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
 }
