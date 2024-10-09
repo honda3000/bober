@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
   {
     img: "assets/images/1.png",
-    name: "Ya Perdole",
+    name: "Ja Pierdole",
     artist: "Bober",
     music: "assets/music/1.mp3",
   },
@@ -47,7 +47,7 @@ const music_list = [
   },
   {
     img: "assets/images/5.png",
-    name: "Ya perdole, Kurwa",
+    name: "Ja pierdole, Kurwa",
     artist: "Bober",
     music: "assets/music/5.mp3",
   },
