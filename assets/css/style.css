@@ -885,6 +885,10 @@ header ul li:nth-child(1) a {
   color:  rgb(52, 36, 0);
 }
 
+.card h3{
+  width: 70%;
+}
+
 
 .img{
   display: flex;
