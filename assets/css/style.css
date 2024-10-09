@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -221,7 +222,7 @@ header ul {
 
 header a {
   display: block;
-  color: white;
+  color: rgb(200, 131, 3);
   text-decoration: none;
 
   border-radius: 0.2rem;
@@ -341,6 +342,7 @@ header ul li:nth-child(1) a {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  color:  rgb(52, 36, 0);
 }
 
 .header h1::after {
@@ -801,13 +803,13 @@ header ul li:nth-child(1) a {
 
 .card {
   --font-color: #323232;
-  --bg-color: #150b0b;
+  --bg-color: #ffffff;
   
   height: 400px;
   border-radius: 20px;
   background: var(--bg-color);
-  box-shadow: -9px 9px 18px #270404,
-              9px -9px 18px #81191c;
+  box-shadow: -9px 9px 18px #653c01,
+              9px -9px 18px #8e650c;
   display: flex;
   flex-direction: column;
   transition: .4s;
@@ -855,4 +857,39 @@ header ul li:nth-child(1) a {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta {
+  display: flex;
+  
+  padding: 1em;
+  margin: 20px;
+  width: calc(90% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  height: 60vh;
+}
+
+.card{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color:  rgb(52, 36, 0);
+}
+
+
+.img{
+  display: flex;
+  width: 50%;
+  
+  position: relative;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0,0.8));
 }

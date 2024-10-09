@@ -22,25 +22,25 @@ let updateTimer;
 
 const music_list = [
   {
-    img: "assets/images/1.jpg",
+    img: "assets/images/1.png",
     name: "Ya Perdole",
     artist: "Bober",
     music: "assets/music/1.mp3",
   },
   {
-    img: "assets/images/2.jpg",
+    img: "assets/images/2.png",
     name: "Hey! Kurwa bober",
     artist: "Bober",
     music: "assets/music/2.mp3",
   },
   {
-    img: "assets/images/3.jpg",
+    img: "assets/images/3.png",
     name: "I need bober",
     artist: "Bober",
     music: "assets/music/3.mp3",
   },
   {
-    img: "assets/images/4.jpg",
+    img: "assets/images/4.png",
     name: "Party kurwa",
     artist: "Bober",
     music: "assets/music/4.mp3",
@@ -52,7 +52,7 @@ const music_list = [
     music: "assets/music/5.mp3",
   },
   {
-    img: "assets/images/6.jpg",
+    img: "assets/images/6.png",
     name: "Poker Bober",
     artist: "Bober",
     music: "assets/music/6.mp3",
